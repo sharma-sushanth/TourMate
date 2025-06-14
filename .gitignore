@@ -1,0 +1,72 @@
+# ----------------------------------------------------
+# General ignores for various OS, editors, and IDEs
+# ----------------------------------------------------
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.htpasswd
+.idea/
+.project
+.vscode/
+
+# Thumbs.db files
+Thumbs.db
+# Folders used by macOS
+.Spotlight-V100
+.Trashes
+__MACOSX
+
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# Python virtual environment
+# Common names for virtual environments
+venv/
+.venv/
+env/
+.env/ # This is usually for environment variables, but sometimes used for venv as well
+
+# Python test and build artifacts
+.pytest_cache/
+.mypy_cache/
+build/
+dist/
+*.egg-info/
+*.so
+
+# ----------------------------------------------------
+# Node.js / React Frontend ignores (for tourmate-frontend/)
+# ----------------------------------------------------
+node_modules/
+# npm package manager cache
+.npm/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# build output for React (Vite default output)
+dist/
+
+# local .vite dev server files
+.vite/
+.vite-inspect/
+
+# testing frameworks
+/coverage
+
+# Dependency directories
+package-lock.json # If you use npm version 7+, this should typically be committed
+yarn.lock # If you use yarn, this should typically be committed
+
+# ----------------------------------------------------
+# Operating System files
+# ----------------------------------------------------
+*.log
+*.tmp
+*.bak
